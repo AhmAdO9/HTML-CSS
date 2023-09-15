@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, shrink-to-fit=no"
+    />
+
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css"
+      integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N"
+      crossorigin="anonymous"
+    />
+    <style>
+      #navbarNav {
+        flex-grow: 0;
+        display: flex;
+      }
+      @media screen and (max-width: 992px) {
+        nav{
+            justify-content: center;
+            flex-direction: column;
+        }
+      }
+  
+        #semi{
+            height: 400px;
+            width: 400px;
+            border-radius: 250px 250px 0 0;
+            background-color: #6ca1cb;
+            position: absolute;
+            right: -16em;
+            top: 101px;
+            transform: rotate(-90deg);
+        }
+        #semi1{
+            height: 400px;
+            width: 400px;
+            border-radius: 250px 250px 0 0;
+            background-color: #6ca1cb;
+            position: absolute;
+            right: 111em;
+            top: 341px;
+            transform: rotate(90deg);
+        }
+
+        #semi2{
+            height: 400px;
+            width: 400px;
+            border-radius: 250px 250px 0 0;
+            background-color: #6ca1cb;
+            position: absolute;
+            right: 89em;
+            top: -255px;
+            transform: rotate(180deg);
+        }
+        #circle {
+    background: #83b4db;
+    border-radius: 50%;
+    width: 20em;
+    height: 20em;
+    
+}
+#semi3{
+            height: 703px;
+            width: 1406px;
+            border-radius: 777px 777px 0 0;
+            background-color: #6ca1cb;
+            transform: rotate(180deg);
+        }
+
+.box{
+  height: 14em;
+  width: 32em;
+  background-color:skyblue;
+ border-radius: 19px;
+    border: 4px ridge white;
+}
+
+.container1{
+  display: grid;
+  grid-column-gap:1px;
+  grid-template-columns: auto auto;
+  height: 48vh;
+
+  
+}
+header{
+      position: sticky;
+    top: 0px;
+    z-index: 2;
+}
+
+        </style>
+
+    <title>Assignment</title>
+  </head>
+  <body style="overflow-x: hidden;">
+    <header>
+      <nav
+        style="display: flex; justify-content: space-between;z-index: 1;"
+        class="navbar navbar-expand-lg navbar-light bg-light"
+      >
+        <a style="color: #3d53cd;
+        font-size: 26px;
+        font-weight: 700;
+    " class="navbar-brand" href="#">Incubyte</a>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav">
+            <li class="nav-item active">
+              <a style="color: #3d53cd;
+              font-size: 17px;
+              font-weight: 500;
+          "  class="nav-link" href="#"
+                >About Us <span class="sr-only">(current)</span></a
+              >
+            </li>
+            <li class="nav-item">
+              <a style="color: #3d53cd;
+              font-size: 17px;
+              font-weight: 500;
+          "  class="nav-link" href="#">Our Expertise</a>
+            </li>
+            <li class="nav-item">
+              <a style="color: #3d53cd;
+              font-size: 17px;
+              font-weight: 500;
+          "  class="nav-link" href="#">Contact</a>
+            </li>
+          </ul>
+        </div>
+      </nav>
+    </header>
+    <main style="height:100vh;">
+        <div style="display: flex;justify-content: center;align-items: center;flex-direction: column; height: 53vh;
+        background: #94d0eb;
+    " ><h1 style="  display: block;
+    font-weight: 700;" >Welcome to </h1>
+    <h1 style="
+    color: #3d53cd;
+    font-weight: 700;" >Incubyte </h1>
+    <h7>
+  Building bridges to success in the tech ecosystem</h7>
+    <div id="semi">
+    </div>
+    <div id="semi1">
+    </div>
+    <div id="semi2">
+    </div>
+    <div id="circle"></div>
+  </div>
+
+    <div style="opacity: 0.95; position: sticky; height: 23vh;background: #4f63d1; z-index: 1;"></div>
+    <div style="height: 50vh;background-color: white;position: relative;z-index: 1;display: flex;justify-content: center;">
+      <div class="container1">
+      <div class="box"></div>
+      <div class="box"></div>
+      <div class="box"></div>
+      <div class="box"></div>
+      </div>
+    </div>
+    <div style="height: 28vh;background: #4f63d1;display: flex;justify-content: center;align-items: end;">
+      <div id="semi3">
+      </div>
+    </div>
+    <div style="height: 12vh;
+    background: #94d0eb;
+    " ></div>
+    <div style="height: 2vh;"></div>
+    
+  </main>
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js"
+      integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"
+      integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.min.js"
+      integrity="sha384-+sLIOodYLS7CIrQpBjl+C7nPvqq+FbNUBDunl/OZv93DB7Ln/533i8e/mZXLi/P+"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
